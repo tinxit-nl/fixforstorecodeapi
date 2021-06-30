@@ -1,0 +1,29 @@
+{
+  "name": "tinxit-nl/fixforstorecodeapi",
+  "description": "Override admin in API endpoint when using storecode urls",
+  "require": {
+    "php": "~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+    "minimum-stability": "dev",
+
+    "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Rene Donkers",
+      "email": "info@tinx-it.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+        "registration.php"
+    ],
+    "psr-4": {
+      "TinxIT\\OverrideWebapi\\": ""
+    }
+  }
+}
